@@ -1,0 +1,21 @@
+{
+  "env": {
+    "url": "JP-STAGING",
+    "baseURL":"http://localhost:4200/",
+    "app": ""
+  },
+  	"viewportWidth": 1600,
+    "viewportHeight": 1000,
+    "defaultCommandTimeout": 50000,
+	"pageLoadTimeout": 300000,
+    "experimentalStudio": true,
+	"chromeWebSecurity": false,
+	 "testFiles": "**/*.{feature,features}",
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+		"mochaFile": "results/my-test-output.xml",
+        "html": false,
+        "json": true
+    }
+}

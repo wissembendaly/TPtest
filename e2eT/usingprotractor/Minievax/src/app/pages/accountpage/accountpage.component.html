@@ -1,0 +1,46 @@
+<div class="bordered p-5 mt-4 view-height">
+    <h2 class="text-center mb-5">Your Personal Informations</h2>
+    <div class="row my-3">
+        <div class="col-2"></div>
+        <div class="col">Your name</div>
+        <div id="name" class="col">wissem</div>
+    </div>
+    <div class="row my-3">
+        <div class="col-2"></div>
+        <div class="col">Cin: </div>
+        <div id="cin" class="col">54511254</div>
+    </div>
+    <div class="row my-3">
+        <div class="col-2"></div>
+        <div class="col">Code Evax</div>
+        <div class="col">
+            64 656 456
+            <button class="mx-5 btn btn-primary">Change</button>
+        </div>
+    </div>
+    <form  class="row my-3">
+        <div class="col-2"></div>
+        <div class="col">
+            <label for="phone">Email:</label>
+        </div>
+        <div class="col">
+            <input id="email" type="text" name=" email" value="wissembendaly95@gmail.com">
+            <button class="mx-5 btn btn-sm btn-success" (click)="changeEmail()">Change</button>
+        </div>
+    </form>
+    <form class="row my-3">
+        <div class="col-2"></div>
+        <div class="col">
+            <label for="phone">Phone number:</label>
+        </div>
+        <div class="col">
+            <input input="phone" id="phone" type="text" name="phone" value ="92462913">
+            <button class="mx-5 btn btn-sm btn-success" (click)="changePhone()">Change</button>
+        </div>
+    </form>
+    <div class="d-flex justify-content-center mt-5">
+        <div>
+            <a [routerLink]="['/me/appointment']" class="btn btn-lg btn-dark AppointmentsClass">Check your appointments</a>
+        </div>
+    </div>
+</div>

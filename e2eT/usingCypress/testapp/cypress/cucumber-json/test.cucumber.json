@@ -1,0 +1,88 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[test] as a user....",
+    "line": 1,
+    "id": "[test]-as-a-user....",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "[test]-as-a-user....;[test]-test1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "[test] test1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "url is open",
+            "result": {
+              "status": "passed",
+              "duration": 17149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the website is diplayed",
+            "result": {
+              "status": "failed",
+              "duration": 50796000000,
+              "error_message": "AssertionError: Timed out retrying after 50000ms: expected '<img.logo_header>' to be 'visible'\n\nThis element `<img.logo_header>` is not visible because it has CSS property: `opacity: 0`\n    at test._callee2$ (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:234:32)\n    at tryCatch (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:38769:40)\n    at Generator.invoke [as _invoke] (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:39000:22)\n    at Generator.eval [as next] (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:38825:21)\n    at asyncGeneratorStep (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:388:24)\n    at _next (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:410:9)\n    at eval (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:417:7)\nat new Promise (<anonymous>)\n    at test.eval [as verifyPage] (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:406:12)\n    at Context.eval (https://www.chanel.com/__cypress/tests?p=cypress\\integration\\test.feature:369:15)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "i click on the search bar",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I write \"ROUGE ALLURE\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the element that contains \"ROUGE ALLURE\" is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Select the second element of the list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the product name is displayed as the one selected before",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
